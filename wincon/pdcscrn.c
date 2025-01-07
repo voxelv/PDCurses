@@ -4,6 +4,9 @@
 
 #include <stdlib.h>
 
+/* Required for GCC and -Wall -Werror... */
+#pragma GCC diagnostic ignored "-Wcast-function-type"
+
 /* Color component table */
 
 PDCCOLOR pdc_color[PDC_MAXCOL];
